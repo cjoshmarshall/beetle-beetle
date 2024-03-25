@@ -49,7 +49,7 @@ function Blog() {
         Latest Posts
       </h2>
       <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row justify-between my-10 sm:my-[60px]">
-        <ul className="flex items-center gap-2 sm:gap-4 lg:gap-0 lg:justify-between">
+        <ul className="flex items-center gap-2 sm:gap-4 lg:justify-between">
           {categories.map((item, index) => (
             <li
               key={index}
